@@ -80,7 +80,6 @@ int main() {
         //if (Input::release(MOUSE::LEFT)) cout << "release mouse left: " << Input::release(MOUSE::LEFT) << endl;
         //if (Input::click(MOUSE::LEFT, 2)) cout << "double click mouse left" << endl;
         //if (Input::comboEx({MOUSE::LEFT, MOUSE::LEFT, KEY::J, KEY::K})) cout << "combo LB, LB, J, K: " << time++ << endl;
-
     });
 
     for (int i = 0; i < 100; ++i) {
