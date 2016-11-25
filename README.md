@@ -11,4 +11,4 @@
 
 本人的 github 上有对应的 demo ，请移步 https://github.com/likier/bud_demo 。
 
-Edi by Kier
+`Edi by Kier`
