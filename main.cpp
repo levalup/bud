@@ -21,7 +21,7 @@ public:
         if (this->countChildNode() < 200) {
             Sprite *sprite = new Sprite(texture);
             sprite->selfDelete(true);
-            sprite->clip = sprite->texture()->rect() / Vector2D<int>(5, 3);
+            sprite->clip = sprite->texture()->rect() / Vector2D<int>(5, 3); // 注意这一行是必要的，设置精灵中每个图片大小。
             sprite->pos.x = rand->next(0, window->width() - sprite->clip.w);
             sprite->pos.y = rand->next(0, window->height() - sprite->clip.h);
             Motion *motion = new AnimationMotion(ANIMATION_LAYOUT::H, 12, 2, rand->next(3, 5));
